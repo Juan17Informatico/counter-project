@@ -3,6 +3,7 @@
   --text-color-primary:#EEF9FC;
   --color-2: #125469; 
   --color-3: #96D9ED;
+  --color-4: #2EB3DC;
 }
 
 *{
@@ -29,4 +30,52 @@ body{
   height: 200px;
   text-align: center;
   align-content: center;
+}
+
+.counter-p{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-3);
+  text-decoration: underline;
+}
+
+.counter-btn{
+  text-align: center;
+  align-content: center;
+  min-height: 200px;
+}
+
+.btn{
+  margin: 15px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  background-color: beige;
+  transition: background-color 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.2s ease-in;
+  box-shadow: 2px 2px 10px 1px #5FC7E7;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.btn-increase:hover{
+  background-color: var(--color-4);
+  color: #fff;
+  box-shadow: 2px 2px 12px 5px #0e74969d;
+}
+
+.btn-decrease:hover{
+  background-color: #219BC0;
+  color: #fff;
+  box-shadow: 2px 2px 12px 5px #0e74969d;
+}
+
+.btn-reset:hover{
+  background-color: #1B7F9D;
+  color: #fff;
+  box-shadow: 2px 2px 8px 5px #0e7496ab;
 }

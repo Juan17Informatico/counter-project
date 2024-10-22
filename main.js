@@ -1,5 +1,5 @@
-import { CounterApp } from "./src";
+import { CounterAppMain } from "./src";
 
 const app = document.getElementById('app'); 
 
-CounterApp(app);
+CounterAppMain(app);
