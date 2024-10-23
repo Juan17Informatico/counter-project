@@ -25,20 +25,12 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
    ```bash
    git clone https://github.com/Juan17Informatico/counter-project.git
 2. Navegar al directorio del proyecto:
+    ```bash
     cd counter-project
 3. Instalar las dependencias necesarias:
+    ```bash
     npm install
 4. Ejecutar el proyecto en modo de desarrollo:
+    ```bash
     npm run dev
 
-## Estructura del proyecto
-
-counter-project/
-├── index.html          # Página principal
-├── main.js             # Archivo de entrada principal
-├── package.json        # Configuración y dependencias del proyecto
-├── src/                # Carpeta principal con la lógica, vistas y estilos
-│   ├── logic/          # Contiene la lógica del contador
-│   ├── styles/         # Archivos de estilos CSS
-│   └── views/          # Archivos de vistas HTML/JS
-└── README.md           # Documentación del proyecto
