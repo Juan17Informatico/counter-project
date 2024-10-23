@@ -1,2 +1,2 @@
-export * from "./CounterBtn"; 
-export * from "./CounterApp"; 
+export * from "./CounterBtn";
+export * from "./Counter";
